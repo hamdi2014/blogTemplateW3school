@@ -1,0 +1,147 @@
+html,
+body {
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+body {
+    font-family: "Raleway", Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1500px;
+}
+
+header {
+    font-size: 24px !important;
+    display: flex;
+    padding: 24px 16px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.btn {
+    padding: 8px 16px;
+    color: #000 !important;
+    background-color: #fff !important;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.photo-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.half {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-row img {
+    margin-bottom: -8px;
+}
+
+.img {
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .photo-row {
+        flex-wrap: nowrap;
+    }
+
+    .half {
+        width: 49.99999%;
+    }
+}
+
+footer {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+    text-align: center !important;
+}
+
+h2 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.img-boy {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    width: 300px;
+}
+
+form {
+    margin: auto;
+    width: 60%;
+}
+
+.pink-text {
+    color: #e91e63 !important;
+    font-size: 18px !important;
+}
+
+.field-section {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+.input-box {
+    border: 1px solid #ccc !important;
+    padding: 8px;
+    width: 100%;
+    margin: 0;
+    overflow: visible;
+    font: inherit;
+}
+
+.btn-submit {
+    color: #fff !important;
+    background-color: #616161 !important;
+    width: 100%;
+    user-select: none;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font: inherit;
+    margin: 0;
+}
+
+.btn-submit:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+
+.footer-link {
+    color: inherit;
+    background-color: transparent;
+}
+
+.footer-link:hover {
+    color: #4CAF50 !important;
+}
